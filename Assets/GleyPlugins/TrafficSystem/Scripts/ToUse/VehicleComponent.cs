@@ -349,7 +349,7 @@ namespace GleyTrafficSystem
         /// <returns>Vehicle velocity vector</returns>
         public Vector3 GetVelocity()
         {
-            return rb.velocity;
+            return rb.linearVelocity;
         }
 
 
